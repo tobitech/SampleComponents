@@ -88,6 +88,7 @@ class YearReviewView: UIView {
 		self.rootStackView.addArrangedSubview(self.titleLabel)
 		self.rootStackView.addArrangedSubview(self.subtitleLabel)
 		self.rootStackView.addArrangedSubview(self.banner)
+		self.rootStackView.addArrangedSubview(StackedProfileImageView())
 		self.rootStackView.addArrangedSubview(self.footnote)
 		
 		self.banner.constrainHeight(constant: 600)
