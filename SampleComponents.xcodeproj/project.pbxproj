@@ -16,6 +16,13 @@
 		0AD225E42B4428CD00A4A6DD /* YearReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225E32B4428CD00A4A6DD /* YearReviewView.swift */; };
 		0AD225E62B44371000A4A6DD /* UIView+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225E52B44371000A4A6DD /* UIView+Image.swift */; };
 		0AD225E82B44464300A4A6DD /* StackedProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225E72B44464300A4A6DD /* StackedProfileImageView.swift */; };
+		0AD225EA2B446B8200A4A6DD /* InteractionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225E92B446B8200A4A6DD /* InteractionsView.swift */; };
+		0AD225ED2B446CE400A4A6DD /* CellSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225EC2B446CE400A4A6DD /* CellSectionView.swift */; };
+		0AD225EF2B446DB100A4A6DD /* SectionItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225EE2B446DB100A4A6DD /* SectionItemView.swift */; };
+		0AD225F12B447D8400A4A6DD /* BanksSectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225F02B447D8400A4A6DD /* BanksSectionView.swift */; };
+		0AD225F32B447E4C00A4A6DD /* BankItemDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225F22B447E4C00A4A6DD /* BankItemDetailView.swift */; };
+		0AD225F52B44953E00A4A6DD /* UIColor+Hex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225F42B44953E00A4A6DD /* UIColor+Hex.swift */; };
+		0AD225F72B44A15E00A4A6DD /* UIImageView+DPImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225F62B44A15E00A4A6DD /* UIImageView+DPImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +37,13 @@
 		0AD225E32B4428CD00A4A6DD /* YearReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearReviewView.swift; sourceTree = "<group>"; };
 		0AD225E52B44371000A4A6DD /* UIView+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Image.swift"; sourceTree = "<group>"; };
 		0AD225E72B44464300A4A6DD /* StackedProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackedProfileImageView.swift; sourceTree = "<group>"; };
+		0AD225E92B446B8200A4A6DD /* InteractionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InteractionsView.swift; sourceTree = "<group>"; };
+		0AD225EC2B446CE400A4A6DD /* CellSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellSectionView.swift; sourceTree = "<group>"; };
+		0AD225EE2B446DB100A4A6DD /* SectionItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionItemView.swift; sourceTree = "<group>"; };
+		0AD225F02B447D8400A4A6DD /* BanksSectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BanksSectionView.swift; sourceTree = "<group>"; };
+		0AD225F22B447E4C00A4A6DD /* BankItemDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BankItemDetailView.swift; sourceTree = "<group>"; };
+		0AD225F42B44953E00A4A6DD /* UIColor+Hex.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Hex.swift"; sourceTree = "<group>"; };
+		0AD225F62B44A15E00A4A6DD /* UIImageView+DPImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+DPImage.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,18 +76,33 @@
 		0AD225CA2B44209500A4A6DD /* SampleComponents */ = {
 			isa = PBXGroup;
 			children = (
-				0AD225CB2B44209500A4A6DD /* AppDelegate.swift */,
-				0AD225CF2B44209500A4A6DD /* ViewController.swift */,
-				0AD225E12B44262700A4A6DD /* View.swift */,
-				0AD225E72B44464300A4A6DD /* StackedProfileImageView.swift */,
-				0AD225E32B4428CD00A4A6DD /* YearReviewView.swift */,
-				0AD225DF2B4424E800A4A6DD /* UIView+Layout.swift */,
-				0AD225E52B44371000A4A6DD /* UIView+Image.swift */,
-				0AD225D42B44209600A4A6DD /* Assets.xcassets */,
-				0AD225D62B44209600A4A6DD /* LaunchScreen.storyboard */,
 				0AD225D92B44209600A4A6DD /* Info.plist */,
+				0AD225CB2B44209500A4A6DD /* AppDelegate.swift */,
+				0AD225E72B44464300A4A6DD /* StackedProfileImageView.swift */,
+				0AD225E52B44371000A4A6DD /* UIView+Image.swift */,
+				0AD225DF2B4424E800A4A6DD /* UIView+Layout.swift */,
+				0AD225F42B44953E00A4A6DD /* UIColor+Hex.swift */,
+				0AD225F62B44A15E00A4A6DD /* UIImageView+DPImage.swift */,
+				0AD225E12B44262700A4A6DD /* View.swift */,
+				0AD225CF2B44209500A4A6DD /* ViewController.swift */,
+				0AD225E32B4428CD00A4A6DD /* YearReviewView.swift */,
+				0AD225D42B44209600A4A6DD /* Assets.xcassets */,
+				0AD225EB2B446CB200A4A6DD /* InteractionsYearInView */,
+				0AD225D62B44209600A4A6DD /* LaunchScreen.storyboard */,
 			);
 			path = SampleComponents;
+			sourceTree = "<group>";
+		};
+		0AD225EB2B446CB200A4A6DD /* InteractionsYearInView */ = {
+			isa = PBXGroup;
+			children = (
+				0AD225E92B446B8200A4A6DD /* InteractionsView.swift */,
+				0AD225EC2B446CE400A4A6DD /* CellSectionView.swift */,
+				0AD225F02B447D8400A4A6DD /* BanksSectionView.swift */,
+				0AD225EE2B446DB100A4A6DD /* SectionItemView.swift */,
+				0AD225F22B447E4C00A4A6DD /* BankItemDetailView.swift */,
+			);
+			path = InteractionsYearInView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -146,13 +175,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD225F32B447E4C00A4A6DD /* BankItemDetailView.swift in Sources */,
 				0AD225E42B4428CD00A4A6DD /* YearReviewView.swift in Sources */,
 				0AD225E22B44262700A4A6DD /* View.swift in Sources */,
 				0AD225D02B44209500A4A6DD /* ViewController.swift in Sources */,
+				0AD225F72B44A15E00A4A6DD /* UIImageView+DPImage.swift in Sources */,
+				0AD225F12B447D8400A4A6DD /* BanksSectionView.swift in Sources */,
 				0AD225E02B4424E800A4A6DD /* UIView+Layout.swift in Sources */,
 				0AD225E82B44464300A4A6DD /* StackedProfileImageView.swift in Sources */,
 				0AD225E62B44371000A4A6DD /* UIView+Image.swift in Sources */,
+				0AD225ED2B446CE400A4A6DD /* CellSectionView.swift in Sources */,
+				0AD225F52B44953E00A4A6DD /* UIColor+Hex.swift in Sources */,
 				0AD225CC2B44209500A4A6DD /* AppDelegate.swift in Sources */,
+				0AD225EA2B446B8200A4A6DD /* InteractionsView.swift in Sources */,
+				0AD225EF2B446DB100A4A6DD /* SectionItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

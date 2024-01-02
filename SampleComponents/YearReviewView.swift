@@ -37,7 +37,7 @@ class YearReviewView: UIView {
 	
 	let banner: UIImageView = {
 		let imageView = UIImageView()
-		imageView.image = UIImage(named: "banner")
+		imageView.image = UIImage(named: "hero")
 		imageView.contentMode = .scaleToFill
 		return imageView
 	}()

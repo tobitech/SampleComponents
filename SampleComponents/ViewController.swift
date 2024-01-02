@@ -4,14 +4,14 @@ import LinkPresentation
 class ViewController: UIViewController {
 	
 	var shareImage = UIImage()
-	let rootView = YearReviewView()
+	let rootView = InteractionsView()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
 		self.view = self.rootView
 		
-		self.rootView.shareButton.addTarget(self, action: #selector(self.shareButtonTapped), for: .touchUpInside)
+		// self.rootView.shareButton.addTarget(self, action: #selector(self.shareButtonTapped), for: .touchUpInside)
 	}
 	
 	@objc func shareButtonTapped() {
