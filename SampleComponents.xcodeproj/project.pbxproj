@@ -11,8 +11,10 @@
 		0AD225D02B44209500A4A6DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225CF2B44209500A4A6DD /* ViewController.swift */; };
 		0AD225D52B44209600A4A6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD225D42B44209600A4A6DD /* Assets.xcassets */; };
 		0AD225D82B44209600A4A6DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0AD225D62B44209600A4A6DD /* LaunchScreen.storyboard */; };
-		0AD225E02B4424E800A4A6DD /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225DF2B4424E800A4A6DD /* Extensions.swift */; };
+		0AD225E02B4424E800A4A6DD /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225DF2B4424E800A4A6DD /* UIView+Layout.swift */; };
 		0AD225E22B44262700A4A6DD /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225E12B44262700A4A6DD /* View.swift */; };
+		0AD225E42B4428CD00A4A6DD /* YearReviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225E32B4428CD00A4A6DD /* YearReviewView.swift */; };
+		0AD225E62B44371000A4A6DD /* UIView+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225E52B44371000A4A6DD /* UIView+Image.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,8 +24,10 @@
 		0AD225D42B44209600A4A6DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0AD225D72B44209600A4A6DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0AD225D92B44209600A4A6DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		0AD225DF2B4424E800A4A6DD /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		0AD225DF2B4424E800A4A6DD /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
 		0AD225E12B44262700A4A6DD /* View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+		0AD225E32B4428CD00A4A6DD /* YearReviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearReviewView.swift; sourceTree = "<group>"; };
+		0AD225E52B44371000A4A6DD /* UIView+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Image.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +63,9 @@
 				0AD225CB2B44209500A4A6DD /* AppDelegate.swift */,
 				0AD225CF2B44209500A4A6DD /* ViewController.swift */,
 				0AD225E12B44262700A4A6DD /* View.swift */,
-				0AD225DF2B4424E800A4A6DD /* Extensions.swift */,
+				0AD225E32B4428CD00A4A6DD /* YearReviewView.swift */,
+				0AD225DF2B4424E800A4A6DD /* UIView+Layout.swift */,
+				0AD225E52B44371000A4A6DD /* UIView+Image.swift */,
 				0AD225D42B44209600A4A6DD /* Assets.xcassets */,
 				0AD225D62B44209600A4A6DD /* LaunchScreen.storyboard */,
 				0AD225D92B44209600A4A6DD /* Info.plist */,
@@ -137,9 +143,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0AD225E42B4428CD00A4A6DD /* YearReviewView.swift in Sources */,
 				0AD225E22B44262700A4A6DD /* View.swift in Sources */,
 				0AD225D02B44209500A4A6DD /* ViewController.swift in Sources */,
-				0AD225E02B4424E800A4A6DD /* Extensions.swift in Sources */,
+				0AD225E02B4424E800A4A6DD /* UIView+Layout.swift in Sources */,
+				0AD225E62B44371000A4A6DD /* UIView+Image.swift in Sources */,
 				0AD225CC2B44209500A4A6DD /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -287,6 +295,7 @@
 				DEVELOPMENT_TEAM = J8A5ZAM5GV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleComponents/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This allows you save images from generated from Sparkle app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -317,6 +326,7 @@
 				DEVELOPMENT_TEAM = J8A5ZAM5GV;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SampleComponents/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "This allows you save images from generated from Sparkle app.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
