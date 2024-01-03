@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0AD0D85F2B45806E0044BE99 /* YearInViewResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0D85E2B45806E0044BE99 /* YearInViewResponse.swift */; };
+		0AD0D8612B4599690044BE99 /* LoyaltyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0D8602B4599690044BE99 /* LoyaltyData.swift */; };
+		0AD0D8632B45A4E20044BE99 /* YearInViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0D8622B45A4E20044BE99 /* YearInViewModel.swift */; };
+		0AD0D8652B45AE990044BE99 /* YearInViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD0D8642B45AE990044BE99 /* YearInViewCell.swift */; };
 		0AD225CC2B44209500A4A6DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225CB2B44209500A4A6DD /* AppDelegate.swift */; };
 		0AD225D02B44209500A4A6DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0AD225CF2B44209500A4A6DD /* ViewController.swift */; };
 		0AD225D52B44209600A4A6DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0AD225D42B44209600A4A6DD /* Assets.xcassets */; };
@@ -26,6 +30,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0AD0D85E2B45806E0044BE99 /* YearInViewResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearInViewResponse.swift; sourceTree = "<group>"; };
+		0AD0D8602B4599690044BE99 /* LoyaltyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoyaltyData.swift; sourceTree = "<group>"; };
+		0AD0D8622B45A4E20044BE99 /* YearInViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearInViewModel.swift; sourceTree = "<group>"; };
+		0AD0D8642B45AE990044BE99 /* YearInViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YearInViewCell.swift; sourceTree = "<group>"; };
 		0AD225C82B44209500A4A6DD /* SampleComponents.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleComponents.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AD225CB2B44209500A4A6DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0AD225CF2B44209500A4A6DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +65,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0AD0D85D2B457DF90044BE99 /* YearInViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0AD0D85E2B45806E0044BE99 /* YearInViewResponse.swift */,
+				0AD0D8622B45A4E20044BE99 /* YearInViewModel.swift */,
+				0AD0D8602B4599690044BE99 /* LoyaltyData.swift */,
+			);
+			path = YearInViewModels;
+			sourceTree = "<group>";
+		};
 		0AD225BF2B44209500A4A6DD = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +94,7 @@
 		0AD225CA2B44209500A4A6DD /* SampleComponents */ = {
 			isa = PBXGroup;
 			children = (
+				0AD0D85D2B457DF90044BE99 /* YearInViewModels */,
 				0AD225D92B44209600A4A6DD /* Info.plist */,
 				0AD225CB2B44209500A4A6DD /* AppDelegate.swift */,
 				0AD225E72B44464300A4A6DD /* StackedProfileImageView.swift */,
@@ -86,6 +105,7 @@
 				0AD225E12B44262700A4A6DD /* View.swift */,
 				0AD225CF2B44209500A4A6DD /* ViewController.swift */,
 				0AD225E32B4428CD00A4A6DD /* YearReviewView.swift */,
+				0AD0D8642B45AE990044BE99 /* YearInViewCell.swift */,
 				0AD225D42B44209600A4A6DD /* Assets.xcassets */,
 				0AD225EB2B446CB200A4A6DD /* InteractionsYearInView */,
 				0AD225D62B44209600A4A6DD /* LaunchScreen.storyboard */,
@@ -178,13 +198,17 @@
 				0AD225F32B447E4C00A4A6DD /* BankItemDetailView.swift in Sources */,
 				0AD225E42B4428CD00A4A6DD /* YearReviewView.swift in Sources */,
 				0AD225E22B44262700A4A6DD /* View.swift in Sources */,
+				0AD0D85F2B45806E0044BE99 /* YearInViewResponse.swift in Sources */,
+				0AD0D8612B4599690044BE99 /* LoyaltyData.swift in Sources */,
 				0AD225D02B44209500A4A6DD /* ViewController.swift in Sources */,
 				0AD225F72B44A15E00A4A6DD /* UIImageView+DPImage.swift in Sources */,
 				0AD225F12B447D8400A4A6DD /* BanksSectionView.swift in Sources */,
+				0AD0D8652B45AE990044BE99 /* YearInViewCell.swift in Sources */,
 				0AD225E02B4424E800A4A6DD /* UIView+Layout.swift in Sources */,
 				0AD225E82B44464300A4A6DD /* StackedProfileImageView.swift in Sources */,
 				0AD225E62B44371000A4A6DD /* UIView+Image.swift in Sources */,
 				0AD225ED2B446CE400A4A6DD /* CellSectionView.swift in Sources */,
+				0AD0D8632B45A4E20044BE99 /* YearInViewModel.swift in Sources */,
 				0AD225F52B44953E00A4A6DD /* UIColor+Hex.swift in Sources */,
 				0AD225CC2B44209500A4A6DD /* AppDelegate.swift in Sources */,
 				0AD225EA2B446B8200A4A6DD /* InteractionsView.swift in Sources */,
